@@ -6,7 +6,7 @@
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: right;
+  float: left;
   display: block;
   color: #F9F0EB;
   text-align: center;
