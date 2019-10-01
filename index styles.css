@@ -1,3 +1,14 @@
+/*padding/margins*/
+html, body
+{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+
 /* Add a background color to the top navigation */
 .topnav {
   background-color: #D6A586;
@@ -60,4 +71,14 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+
+.paragraphs
+{
+  width: 95%;
+  height: 100%;
+  margin: 30px;
+  padding: 0px;
+  overflow-x: hidden;
 }
