@@ -73,12 +73,11 @@ body, html {
   color: white;
 }
 
-
 .paragraphs
 {
-  width: 95%;
+  width: 100%;
   height: 100%;
   margin: 30px;
   padding: 0px;
-  overflow-x: hidden;
+  overflow-y: visible;
 }
