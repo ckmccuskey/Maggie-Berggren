@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalogue SYSTEM "Structured.dtd">
+
+<!ELEMENT Oil (Oil Name+, Use, Smell, Benefits, Maggie's Uses)>
+<!ELEMENT Oil Name (#PCDATA)>
+<!ELEMENT Use (#PCDATA)>
+<!ELEMENT Smell (#PCDATA)>
+<!ELEMENT Benefits (#PCDATA)>
+<!ELEMENT Maggie's Uses (#PCDATA)>
+
+<EssentialOil>
+<Oil>
+  <OilName> THIEVES </OilName>
+  <Use> roll it - eat it - diffuse it </Use>
+  <Smell> Warm and spicy smell (like Christmas!). </Smell>
+  <Benefits> Germ fighting powers and immune booster. </Benefits>
+  <MaggiesUses> Drink a drop in a mug of tea for immune support, roll it on my wrists, feet, and spine for protection, and spray it with water and lemon to clean up around the house. <MaggiesUses>
+</Oil>
+
+<Oil>
+  <OilName> FRANKINCENSE </OilName>
+  <Use> roll it - diffuse it </Use>
+  <Smell> Rich, amazing, earthy smell. </Smell>
+  <Benefits> Skin support, as well as emotional and relaxation support. </Benefits>
+  <MaggiesUses> Put some on my skin every night (especially under my eyes) for skin support, and use it in all kinds of blends. <MaggiesUses>
+</Oil>
+
+<Oil>
+  <OilName> STRESS AWAY </OilName>
+  <Use> roll it - diffuse it </Use>
+  <Smell> Yummy-smelling, calming blend. </Smell>
+  <Benefits> Emotional support - tension + stress fighter. </Benefits>
+  <MaggiesUses> Roll it on my wrists and breathe it in to say goodbye to stress! <MaggiesUses>
+</Oil>
+
+</EssentialOil>
