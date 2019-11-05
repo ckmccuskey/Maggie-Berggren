@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE catalogue SYSTEM "Structured.dtd">
 
-<!ELEMENT Oil (Oil Name+, Use, Smell, Benefits, Maggie's Uses)>
-<!ELEMENT Oil Name (#PCDATA)>
+<!ELEMENT Essential Oil (Oil+)>
+<!ELEMENT Oil (OilName, Use, Smell, Benefits, Maggie's Uses)>
+<!ELEMENT OilName (#PCDATA)>
 <!ELEMENT Use (#PCDATA)>
 <!ELEMENT Smell (#PCDATA)>
 <!ELEMENT Benefits (#PCDATA)>
