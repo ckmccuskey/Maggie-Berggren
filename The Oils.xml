@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE catalogue SYSTEM "Structured.dtd">
 
-<!DOCTYPE EssentialOil [
+<!ELEMENT Essential Oil (Oil+)>
 <!ELEMENT Oil (Oil Name+, Use, Smell, Benefits, Maggie's Uses)>
 <!ELEMENT Oil Name (#PCDATA)>
 <!ELEMENT Use (#PCDATA)>
 <!ELEMENT Smell (#PCDATA)>
 <!ELEMENT Benefits (#PCDATA)>
 <!ELEMENT Maggie's Uses (#PCDATA)>
-]>
 
 <EssentialOil>
 <Oil>
