@@ -72,7 +72,7 @@ body, html {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Tray of oils.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Diffusers.jpg");
 
   /* Set a specific height */
   height: 50%;
@@ -107,7 +107,7 @@ body, html {
 
 
 
-/* Formatting the row of links*/
+/* Formatting the row of images that the button links are on*/
 .row {
   display: flex;
 }
@@ -123,6 +123,44 @@ body, html {
     width: 100%;
   }
 }
+
+
+/*formatting containers for buttons on images and styles of buttons*/
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #D6A586;
+    color: #F9F0EB;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+
+  .container .btn:hover {
+    background-color: #F9F0EB;
+    color: #D6A586;
+  }
+
+
+
 
 
 
