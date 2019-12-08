@@ -125,6 +125,16 @@ body, html {
 }
 
 
+/*responsive image*/
+.img-responsive {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  margin: 16px;
+}
+
+
+
 
 
 
