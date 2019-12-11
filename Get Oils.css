@@ -125,6 +125,42 @@ body, html {
 }
 
 
+/*formatting containers for buttons on images and styles of buttons*/
+.container {
+  position: relative;
+  width: 100%;
+  padding: 35px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+  .container .btn {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #D6A586;
+    color: #F9F0EB;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+
+  .container .btn:hover {
+    background-color: #F9F0EB;
+    color: #D6A586;
+  }
+
+
+
 /*responsive image*/
 .img-responsive {
   width: 100%;
